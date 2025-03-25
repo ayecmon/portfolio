@@ -1,7 +1,7 @@
 import { Row, Col, Container, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img4.png";
+import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
@@ -19,7 +19,7 @@ export const Projects = () => {
     {
       title: "AI Anime Face Dectector",
       description: " AI Anime Face Detector is a deep learning-based program designed to identify and recognize anime-style faces in images. It utilizes a Convolutional Neural Network (CNN) trained on a dataset of anime faces to accurately detect and classify facial features unique to anime characters.",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
     },
   ];
 
@@ -27,7 +27,7 @@ export const Projects = () => {
     {
       title: "We Lift",
       description: "WeLift, is an AI-powered workout generator designed to help users create personalized fitness routines based on their goals, preferences, and fitness level. Built with Flutter, the app provides a sleek and user-friendly interface, allowing users to generate tailored workout plans, track progress, and stay motivated.",
-      imgUrl: projImg3,
+      imgUrl: projImg2,
     },
   ];
   return (
