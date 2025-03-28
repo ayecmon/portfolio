@@ -82,6 +82,34 @@ p.success {
 p.danger {
 	color: red;
 }
+
+/* Mobile-first base styles */
+body {
+  overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+/* Responsive section padding */
+section {
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 4rem 0;
+  }
+}
+
+/* Fluid images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Touch targets */
+a, button {
+  min-width: 44px;
+  min-height: 44px;
+}
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -658,6 +686,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+.contact textarea {
+  margin-bottom: 15px;
+}
+.contact p.danger, 
+.contact p.success {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+.contact p.danger {
+  background: whitesmoke;
+  color: #c62828;
+}
+.contact p.success {
+  background: whitesmoke;
+  color: #2e7d32;
 }
 
 /************ Footer Css ************/
