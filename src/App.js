@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import { NavBar } from './components/NavBar';
-import { Banner} from './components/Banner';
-import { Languages } from './components/Languages';
-import { Skills } from './components/Skills';
-import {Projects} from './components/Projects';
-import {Contact} from './components/Contact';
-import { Footer } from './components/Footer';
+import logo from "./logo.svg";
+import "./App.css";
+import { NavBar } from "./components/NavBar";
+import { Banner } from "./components/Banner";
+import { Languages } from "./components/Languages";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Languages />
       <Skills />
       <Projects />
-      <Contact/>
+      <Contact />
       <Footer />
     </div>
   );

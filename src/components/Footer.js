@@ -11,9 +11,6 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-item-center">
-          {/* <div className="form">
-            <MailchimpForm />
-          </div> */}
           <Col sm={6}>
             <Navbar.Brand href="/">
               <h1 style={{ color: "white" }}>&lt;&gt;ACM&lt;/&gt;</h1>
@@ -43,7 +40,12 @@ export const Footer = () => {
               </a>
             </div>
             <p>CopyRight 2025. All Right Reserved by Aye Mon</p>
-            <p>Credit: Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p>
+              Credit: Icons by{" "}
+              <a target="_blank" href="https://icons8.com">
+                Icons8
+              </a>
+            </p>
           </Col>
         </Row>
       </Container>
