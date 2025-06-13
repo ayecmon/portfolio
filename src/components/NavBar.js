@@ -26,7 +26,7 @@ export const NavBar = () => {
     setActiveLink(value);
   };
   return (
-    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="xl" sticky="top"  collapseOnSelect className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
           <h1 style={{ color: "white" }}>&lt;&gt;ACM&lt;/&gt;</h1>
