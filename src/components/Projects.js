@@ -61,7 +61,7 @@ export const Projects = () => {
                       {webProject.map((project, index) => {
                         return <ProjectCard key={index} {...project} />;
                       })}
-                      <Col sm={3}>
+                      <Col xl={3}>
                         <div className="proj-link">
                           <a
                             href="https://new-space.netlify.app/"
@@ -88,7 +88,7 @@ export const Projects = () => {
                       {mobileProject.map((project, index) => {
                         return <ProjectCard key={index} {...project} />;
                       })}
-                      <Col sm={3}>
+                      <Col xl={3}>
                         <div className="proj-link">
                           <a
                             href="https://play.google.com/store/apps/details?id=com.ayecmon.welift"
@@ -115,7 +115,7 @@ export const Projects = () => {
                       {aiProject.map((project, index) => {
                         return <ProjectCard key={index} {...project} />;
                       })}
-                      <Col sm={3}>
+                      <Col xl={3}>
                         <div className="proj-link">
                           <a
                             href="https://github.com/ayecmon/AI-animeFaceDetector.git"
